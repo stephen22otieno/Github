@@ -1,27 +1,29 @@
-# Github
+## Git-Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+ An application that allows the user to search for Repos in github
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## By Stephen Otieno
 
-## Code scaffolding
+## Description
+This is an application which takes the role of github in the search area.It allows the users to search for Users and Ropes ongithub with their name .
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
+You will need first to have node,npm, tsc and watchman installed.
+Clone this repository from my Github account jeffmusa
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
+Typescript
+CSS
+Bootstrap
+Angular 6
+HTML
+Application live site.
+Here you will have a look on the application and get to use it on this link.
 
-## Running unit tests
+## License
+This software is Licensed under the MIT License.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 Stephen Otieno
