@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+.contact{
+    text-align: center;
+    background-color: blue;
+    background-image: Url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfpi_VSzaIb96mSaLVgXnH07jGEkhWhbuw0Yih-SfC7Qe7T0SO");
+
+}
+h1{
+    text-anchor: coral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-style: italic;
+}
