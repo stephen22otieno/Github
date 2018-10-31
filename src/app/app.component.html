@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-sm-9">
         <div class="input">
-          <input placeholder="Enter Username" [(ngModel)]="userName">
+          <input placeholder="Enter Username" [(ngModel)]="userName"><br>
           <button (click)="MoreInfo()">SEARCH</button>
         </div>
     </div>
@@ -21,9 +21,11 @@
             <h2>Repositories: {{gitInfo.public_repos}}</h2>
             <h2>Followers: {{gitInfo.followers}}</h2>
             <h2>Following: {{gitInfo.following}}</h2>
-
-            <h3><a [href]="gitInfo.html_url">View Repos:</a></h3>
         </div>
+
+        <div class="view-button">
+        <button type="button"><a [href]="gitInfo.html_url">View Repos:</a></button>
+          </div>
       </div>
   </div>
 
