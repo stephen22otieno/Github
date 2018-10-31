@@ -11,7 +11,8 @@ export class AppComponent {
 
   constructor(private http:Http){}
   userName="";
-  githubData:any="";
+  gitInfo:any="";
+  avatarUrl="./assets/avatar.png"
 
 
 MoreInfo(){
@@ -19,9 +20,12 @@ this.http.get("https://api.github.com/users/"+this.userName+"?access_token="+env
 .subscribe(
   (response:Response)=>{
     const userData=response.json();
-    this.githubData=userData;
+    this.gitInfo=userData;
 
+   this.avatarUrl=userData.avatar_url;
     console.log(userData);
+
+    
   }
 )
 

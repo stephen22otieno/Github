@@ -1,32 +1,30 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
     <div class="container">
-      <div class="jumbotron">
-      <h1> GITHUBSEARCH</h1>
+      <h1> Git-Search</h1>
       <p>Feel free and Search for the User</p>
       <hr>
   </div>
 
   <div class="row">
-    <div class="col-sm-4">
-      <div class="well" >
-        <div class="input-form">
+    <div class="col-sm-9">
+        <div class="input">
           <input placeholder="Enter Username" [(ngModel)]="userName">
           <button (click)="MoreInfo()">SEARCH</button>
         </div>
-      </div>
     </div>
     
 
-        <div class="info">
-          <h3>{{githubData.name}}</h3>
-            <h4>Location:{{githubData.location}}</h4>
-            <h4>Repositories: {{githubData.public_repos}}</h4>
-            <h4>Followers: {{githubData.followers}}</h4>
-            <h4>Following: {{githubData.following}}</h4>
+        <div id="info">
+          <h2>{{gitInfo.name}}</h2>
+            <h2>Location:{{gitInfo.location}}</h2>
+            <h2>Repositories: {{gitInfo.public_repos}}</h2>
+            <h2>Followers: {{gitInfo.followers}}</h2>
+            <h2>Following: {{gitInfo.following}}</h2>
+
+            <h3><a [href]="gitInfo.html_url">View Repos:</a></h3>
         </div>
       </div>
-    </div>
   </div>
 
  
